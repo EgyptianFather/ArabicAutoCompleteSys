@@ -1,6 +1,3 @@
-# Create and save the README.md file with the content provided
-
-readme_content = """
 # 🔮 Arabic Word-Level Autocomplete
 
 This project is an **Arabic word-level autocomplete** system built using a trained neural network model and deployed with **Gradio**. It suggests the **most likely next word** after a user types and presses the spacebar.
