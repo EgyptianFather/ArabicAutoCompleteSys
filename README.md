@@ -1,31 +1,34 @@
-# ArabicAutoCompleteSys
+# Create and save the README.md file with the content provided
 
-🔮 Arabic Word-Level Autocomplete
-This project is an Arabic word-level autocomplete system built using a trained neural network model and deployed with Gradio. It suggests the most likely next word after a user types and presses the spacebar.
+readme_content = """
+# 🔮 Arabic Word-Level Autocomplete
 
-📌 Features
-✅ Arabic word suggestions after each word
+This project is an **Arabic word-level autocomplete** system built using a trained neural network model and deployed with **Gradio**. It suggests the **most likely next word** after a user types and presses the spacebar.
 
-✅ Handles Arabic text preprocessing
+---
 
-✅ Skips unknown (<UNK>) tokens when predicting
+## 📌 Features
 
-✅ Gradio live interface
+- ✅ **Arabic word suggestions** after each word
+- ✅ **Handles Arabic text preprocessing**
+- ✅ **Skips unknown (`<UNK>`) tokens when predicting**
+- ✅ **Gradio live interface**
+- ✅ **Clean and minimal design**
 
-✅ Clean and minimal design
+---
 
-🧠 Model Overview
-Type: Sequence model (e.g., LSTM or Transformer)
+## 🧠 Model Overview
 
-Input: Sequence of words (as integer tokens)
+- **Type**: Sequence model (e.g., LSTM or Transformer)
+- **Input**: Sequence of words (as integer tokens)
+- **Output**: Probability distribution over vocabulary for the next word
 
-Output: Probability distribution over vocabulary for the next word
+---
 
-🧼 Preprocessing
+## 🧼 Preprocessing
+
 We clean the Arabic text by:
 
-Removing diacritics (التشكيل)
-
-Removing punctuation, digits, and Latin characters
-
-Keeping Arabic letters unchanged (e.g., we do not normalize 'ؤ', 'ى', etc.)
+- Removing **diacritics** (التشكيل)
+- Removing **punctuation, digits, and Latin characters**
+- Keeping Arabic letters **unchanged** (e.g., we do *not* normalize 'ؤ', 'ى', etc.)
